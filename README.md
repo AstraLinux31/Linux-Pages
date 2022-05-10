@@ -10,25 +10,44 @@ ansible-playbook file.yaml
 Run an Ansible playbook called file.yaml
 
 Authentication options
+
 --user, -u <username> Log in as username
+  
 --private-key, --key-file <key> Log in using SSH key (usually in ~/.ssh)
+  
 --ssh-extra-args Pass extra command options to SSH
+  
 --vault-id <id> Use vault identity ID
+  
 --vault-password-file <key> Use vault password file key
+  
 --ask-vault-pass Prompt for a vault password
+  
 --become Escalate privileges
+  
 --ask-become-pass Prompt for a password for become
+  
 --become-method Escalate privilege using a specific method
+  
 ansible-doc –-type foo --list List choices for become, connection, and
 other Ansible options
+  
 # Control options
+  
 --syntax-check Verify syntax of a playbook, but do not run it
+  
 --list-hosts Show hosts listed in a playbook
+  
 --list-tasks Show tasks defined in a playbook
+  
 --start-at-task <task_name> Run playbook starting at task name
+  
 --check Run the playbook but don’t make changes
+  
 --diff Show diffs for what changes are made
+  
 --module-path Prepend colon-separated path to default path
+  
 --connection <method> Connect over method
   
 # Playbook and YAML
