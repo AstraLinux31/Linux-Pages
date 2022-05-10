@@ -6,7 +6,9 @@ playbooks are written in YAML, and executed either locally or remotely.
 # Command
 
 ansible-playbook file.yaml
+
 Run an Ansible playbook called file.yaml
+
 Authentication options
 --user, -u <username> Log in as username
 --private-key, --key-file <key> Log in using SSH key (usually in ~/.ssh)
